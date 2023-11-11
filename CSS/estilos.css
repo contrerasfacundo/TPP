@@ -1,0 +1,142 @@
+body {
+    background-image: url(https://www.namesnack.com/images/Namesnack-nombres-para-helader%C3%ADas-5491x4844-20230523.jpeg?crop=21:16,smart&width=420&dpr=2);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    
+    
+}
+
+nav {
+    background-color: #FFC300;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+aside {
+    background-color: #FFC300;
+    padding: 10px;
+}
+
+footer {
+    background-color: #FFC300;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+button {
+    background-color: #FF5733;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff3300f3;
+}
+
+
+@media  (max-width: 768px) {
+    
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        padding: 5px;
+    }
+
+   
+}
+
+
+@media (min-width: 769px) {
+    
+    body {
+        font-size: 18px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    
+}
+
+
+.div {display: flex;
+    
+}
+
+.ice {display: flex;
+    width: 500px;
+    
+   }
+   p {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+li {font-style: italic;
+    font-size: 18px;
+}
+
+h2 {font-weight: bold;
+
+font-size: 50px;}
+
+h1 {font-size: 50px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.sabores {display: flex;
+
+width: 100%;
+height: 100%;
+}
+
+.sabores li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.sabores li img {
+width: 90%;
+height: 90%;
+object-fit: cover;
+}
+
+    
+
+
+.imagenes-sabores img{
+display: inline-block;
+width: 350px;
+height: 350px;
+margin: 40px;
+object-fit: cover;
+
+
+}
+
+
+
+
