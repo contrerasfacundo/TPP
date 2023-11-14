@@ -36,9 +36,7 @@ aside {
 footer {
     background-color: #FFC300;
     padding: 10px;
-    text-align: center;
-    margin: 0px;
-    flex-shrink: 0;
+    text-align: center;  
 }
 
 
@@ -133,4 +131,9 @@ border: 1px solid black;
 
 
 
+
+.fo {position: absolute;
+bottom: 0;
+width: 100%;
+height: 100%;}
 
