@@ -37,7 +37,8 @@ footer {
     background-color: #FFC300;
     padding: 10px;
     text-align: center;
-    margin: 0px;  
+    margin: 0px;
+    flex-shrink: 0;
 }
 
 
